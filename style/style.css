@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 12px;
+
+}
+.container {
+width: 400px;
+    margin: 0 auto;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    background-color: black;
+    padding: 10px  0;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+.next  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.next button {
+    padding: 7px 22px;
+    background-color: forestgreen;
+    border-radius: 5px;
+    border: 0;
+}
+ img {
+    width: 400px !important;
+}
